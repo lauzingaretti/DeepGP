@@ -1,5 +1,9 @@
 ## DeepGS
+
 A python based tool to implement Genomic Prediction Experiments using Deep Learning
+
+LM Zingaretti
+
 
 The DeepGS package implements Multilayer Perceptron Networks (MLP), Convolutional Neural Network (CNN), Ridge Regression and Lasso Regression to Genomic Prediction purposes. Our package takes advantage of Autonomio Talos [Computer software]. (2019). Retrieved from http://github.com/autonomio/talos functionalities to optimize the networks  parameters. It also implements uni and multi-trait experiments. We believe it can be a useful tool for people who want to implement Deep Learning models for predicting complex traits in an easy way.
 
