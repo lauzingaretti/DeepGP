@@ -1,4 +1,4 @@
-## DeepGS
+## DeepGP
 
 A python based tool to implement Genomic Prediction Experiments using Deep Learning
 
