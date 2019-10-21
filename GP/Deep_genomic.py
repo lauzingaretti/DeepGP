@@ -59,9 +59,9 @@ if __name__ == '__main__':
     # if you only want to train the model, you don't need a validation set
     parser.add_argument("--Xval", default=None,required=False, help="validation Predictor")
     parser.add_argument("--yval",default=None, required=False,help= "validation response matrix")
-    parser.add_argument("--scale",help="Boolean indicating if y should be scaled", action="store_true",default=False)
-    parser.add_argument("--dummy", help="Convert SNPs into OneHot encoding", action="store_true",default=False)
-    parser.add_argument("--categorical", help="Are outputs categorical variables?", action="store_true", default=False)
+    parser.add_argument("--scale",help="Boolean indicating if y should be scaled", action="store_true")
+    parser.add_argument("--dummy", help="Convert SNPs into OneHot encoding", action="store_true")
+    parser.add_argument("--categorical", help="Are outputs categorical variables?", action="store_true")
     parser.add_argument("--gridProp", help="proportion of random search", default=1, type=float)
     parser.add_argument("--trait", help="name of trait to be used in the analysis", default=None,required=False)
     parser.add_argument("--output", help="path to output dir",required=True)
