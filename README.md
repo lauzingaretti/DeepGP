@@ -91,9 +91,9 @@ the most important  hyperparameters in CNN and MLP architectures.
 
 <hr>
 
-### List of input parameters
+### 📈 DeepGP input parameters 
 
-The next two tables include the whole list of DeepGenomic.py input parameters to be parser using argparse.
+The next two tables include the whole list of DeepGenomic.py input parameters. All these parameters allow us considering many possibilities for GP purpose, since data-preprocessing to obtain the best hyperparameter combination of a neural network (CNN or MLP) architecture. 
 
 |Input parameter | Description|
 |:----:|----------|
