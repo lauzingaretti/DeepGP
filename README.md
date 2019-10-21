@@ -10,7 +10,7 @@
 
 
 <p align="center">
-Laura Zingaretti and Miguel Pérez-Enciso
+Laura Zingaretti (m.lau.zingaretti@gmail.com) and Miguel Pérez-Enciso (miguel.perez@uab.es)
 </p>
 <hr>
 <p align="center">
