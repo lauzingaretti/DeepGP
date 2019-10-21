@@ -4,7 +4,7 @@
   <br>
 </h1>
 
-<h3 align="center">Applying Deep Learning to  Genomic Prediction (GP) in plant breeding programs </h3>
+<h3 align="center">Harnessing deep learning for complex traits Genomic Prediction (GP) in plant breeding programs </h3>
 
 <p align="center">
 
