@@ -8,6 +8,7 @@
 
 <p align="center">
 
+
 <p align="center">
 Laura Zingaretti and Miguel Pérez-Enciso
 </p>
@@ -17,19 +18,18 @@ A python based tool to implement Genomic Prediction Experiments using Deep Learn
 
 </p>
 
-### The tool
+### The Software
 
 The DeepGP package implements Multilayer Perceptron Networks (MLP),
 Convolutional Neural Network (CNN),
 Ridge Regression and Lasso Regression to Genomic Prediction purposes.
-Our package takes advantage of Autonomio Talos [Computer software] (2019).
-Retrieved from http://github.com/autonomio/talos functionalities to
+Our package takes advantage of Autonomio Talos [Computer software] (2019) ( http://github.com/autonomio/talos) functionalities to
 optimize the networks  parameters. It also implements uni and
 multi-trait experiments with a set of normalization options.
 We believe it can be a useful tool for people who want to
 implement Deep Learning models for predicting complex traits in an
 easy way.
-For a more 'didactic' tool, please check: https://github.com/miguelperezenciso/DLpipeline
+For a more 'didactic' site on DL, please check: https://github.com/miguelperezenciso/DLpipeline
 Citation: [Pérez-Enciso M, Zingaretti LM. 2019. A Guide on Deep Learning for Complex Trait Genomic Prediction. Genes, 10, 553.](https://www.mdpi.com/2073-4425/10/7/553)
 
 ### Introduction
@@ -44,7 +44,7 @@ hyperparameter combination.
 
 Genomic Selection is the breeding strategy
 consisting in predicting complex traits using
-genomic-wide genetic markers and it is standard in many animal append
+genomic-wide genetic markers and it is standard in many animal and
 plant breeding schemes. Its powerful predictive ability makes
 DL a suitable tool for prediction problems. Here, we deliver a tool
  to predicting complex traits
@@ -58,15 +58,15 @@ the most important  hyperparameters in CNN and MLP architectures.
 
  ### GP main features
 
-  - It allows tuning the MLP and CNN architectues for GP purpose
-  - Our package uses a random search to hyperparameter optimization.
+  - It allows tuning the MLP and CNN architectues for GP purposes
+  - Our package uses a random search for hyperparameter optimization.
   - It is easy to implement
-  - It deliver all the parameters to implemented models
+  - It delivers all the parameters to implemented models
    allowing you to explore the hyperparameters influence
 
 ### What is a hyperparameter in DL jargon?
 
-  Hyperparameters are variables that we need to set
+  Hyperparameters are variables that need to set
   in order to apply a DL algorithm to a dataset. Even in a simple neural network,
   numerous hyperparameters need to be configured. The optimal combination of
   hyperparameters depends on the specific problem and a set of suitable hyperparameters
@@ -91,9 +91,9 @@ the most important  hyperparameters in CNN and MLP architectures.
 
 <hr>
 
-### 📈 DeepGP input parameters 
+### List of input parameters
 
-The next two tables include the whole list of DeepGenomic.py input parameters. All these parameters allow us considering many possibilities for GP purpose, since data-preprocessing to obtain the best hyperparameter combination of a neural network (CNN or MLP) architecture. 
+The next two tables include the whole list of DeepGenomic.py input parameters to be parser using argparse.
 
 |Input parameter | Description|
 |:----:|----------|
@@ -139,21 +139,24 @@ The next table includes the parameters required if you want to evaluate a MLP (`
 
 ### 📈 Genomic Prediction Examples
 
-----------------------------------------------------------------
+
+Check in any of these items to access examples to run the desired DL option.
+
 
   - [1. MLP](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/MLP.md)
   - [2. CNN](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/CNN.md)
   - [3. Linear regression](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/LM.md)
-  
+
+
 <hr>
 
 ### 💾 Usage
 
-Please clone this repo in the DeepGP folder
+Please clone this repo i the DeepGP folder
 
 `git clone https://github.com/lauzingaretti/DeepGP.git DeepGP`
 
-Install dependencies 
+Install dependencies
 
 `pip3 install -r requirements.txt`
 
