@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-<img src="https://github.com/lauzingaretti/DeepGP/blob/master/Logo.png" width="350"></a>
+<img src="https://github.com/lauzingaretti/DeepGP/blob/master/Logo.png" width="700"></a>
   <br>
 </h1>
 
