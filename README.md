@@ -144,10 +144,7 @@ The next table includes the parameters required if you want to evaluate a MLP (`
   - [1. MLP](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/MLP.md)
   - [2. CNN](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/CNN.md)
   - [3. Linear regression](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/LM.md)
-  - [4. Hyperparameter tuning](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/HiperTun.md)
-  - [5. Practicalities](https://github.com/lauzingaretti/DeepGS/blob/master/inst/md/Practicalities.md)
-
-
+  
 <hr>
 
 ### 💾 Usage
