@@ -152,7 +152,7 @@ The next table includes the parameters required if you want to evaluate a MLP (`
 
 ### 💾 Usage
 
-Please clone this repo i the DeepGP folder
+Please clone this repo in the DeepGP folder
 
 `git clone https://github.com/lauzingaretti/DeepGP.git DeepGP`
 
