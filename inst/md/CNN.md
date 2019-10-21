@@ -5,7 +5,7 @@ Please clone this repo in the **DeepGP** folder.
 
 `git clone https://github.com/lauzingaretti/DeepGP.git DeepGP`
 
-Make sure you have the dependencies installed. To install dependencies, please run in bash the following command:
+Make sure you have the dependencies installed. To install dependencies, please run the following command in bash:
 
 `pip3 install -r requirements.txt`
 
