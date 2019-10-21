@@ -8,7 +8,6 @@
 
 <p align="center">
 
-
 <p align="center">
 Laura Zingaretti and Miguel Pérez-Enciso
 </p>
