@@ -29,7 +29,7 @@ Once the running process finished, go to `/path/to/output/Folder`. You may have 
 You can recover the best model and test a new validation dataset by typing in python:
 
 ```python
-import talos  ss
+import talos 
 from talos import Restore
 #make sure you are in the folder containing CNN_optimize.zip
 model= Restore(scan_object,'MLP_optimize')
