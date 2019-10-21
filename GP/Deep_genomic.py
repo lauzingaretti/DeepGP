@@ -1,6 +1,6 @@
 """
  Deep_genomic.py allows predicting complex traits by using Deep Learning and Penalized Liner models
- Authors: Laura M Zingaretti (m.lau.zingaretti@gmail.com) and iguel Perez-Enciso (miguel.perez@uab.es)
+ Authors: Laura M Zingaretti (m.lau.zingaretti@gmail.com) and Miguel Perez-Enciso (miguel.perez@uab.es)
 """
 '''
     Copyright (C) 2019  Laura Zingaretti
