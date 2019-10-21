@@ -153,7 +153,7 @@ Please clone this repo in the DeepGP folder
 
 `git clone https://github.com/lauzingaretti/DeepGP.git DeepGP`
 
-Install dependences 
+Install dependencies 
 
 `pip3 install -r requirements.txt`
 
