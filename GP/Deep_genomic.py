@@ -27,7 +27,7 @@ from run_cnn import run_cnn_main
 from run_mlp import run_mlp_main
 from run_ridge import run_ridge_main
 from run_lasso import run_lasso_main
-from run_rnn import run_rnn_main
+#from run_rnn import run_rnn_main
 import seaborn as sns
 from sklearn.model_selection import train_test_split
 
