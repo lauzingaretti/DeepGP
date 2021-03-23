@@ -21,7 +21,7 @@ Prepare the output folder where results should be stored:
 
 Running a CNN and tune hyperparameters by typing in bash:
 
-`python3 Deep_genomic.py --Xtr /dataset_wheat/XWheatTrain.csv --ytr /dataset_wheat/YWheatTrain.csv  --Xval /dataset_wheat/XWheatVal.csv --yval /dataset_wheat/YWheatVal.csv  --trait 2  --output /path/to/output/Folder  --lr 0.025 0.01 --dr1 0 0.01 --dr2 0 0.1 0.2 --reg1 0.0001 --nconv 1,3 --act1 linear tanh --act2 tanh --ks 3 --hl 1 5  --optimizer Adam   --cnn --gridProp 1
+`python3 GP/Deep_genomic.py --Xtr /dataset_wheat/XWheatTrain.csv --ytr /dataset_wheat/YWheatTrain.csv  --Xval /dataset_wheat/XWheatVal.csv --yval /dataset_wheat/YWheatVal.csv  --trait 2  --output /path/to/output/Folder  --lr 0.025 0.01 --dr1 0 0.01 --dr2 0 0.1 0.2 --reg1 0.0001 --nconv 1,3 --act1 linear tanh --act2 tanh --ks 3 --hl 1 5  --optimizer Adam   --cnn --gridProp 1
 `
 
 Once the running process finished, go to `/path/to/output/Folder`. You may have two folders inside the main directory. One of them is called `best_model`  containing a .zip file with all the weights of the selected model, i.e. the model with the best predictive accuracy.
