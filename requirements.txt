@@ -6,5 +6,5 @@ wrangle==0.6.7
 talos==0.4.8
 pandas==0.24.2
 matplotlib==2.2.3
-tensorflow==1.13.1
+tensorflow==2.6.4
 scikit_learn==0.21.3
